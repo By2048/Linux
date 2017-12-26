@@ -1,0 +1,21 @@
+gcc check.c -o check.o `pkg-config --cflags --libs gtk+-2.0`
+
+gcc combo.c -o combo.o `pkg-config --cflags --libs gtk+-2.0`
+
+gcc count.c -o count.o `pkg-config --cflags --libs gtk+-2.0`
+
+gcc frame.c -o frame.o `pkg-config --cflags --libs gtk+-2.0`
+
+gcc hello.c -o hello.o `pkg-config --cflags --libs gtk+-2.0`
+
+gcc helloworld.c -o helloworld.o `pkg-config --cflags --libs gtk+-2.0`
+
+gcc image.c -o image.o `pkg-config --cflags --libs gtk+-2.0`
+
+gcc input.c -o input.o `pkg-config --cflags --libs gtk+-2.0`
+
+gcc menu.c -o menu.o `pkg-config --cflags --libs gtk+-2.0`
+
+gcc statusbar.c -o statusbar.o `pkg-config --cflags --libs gtk+-2.0`
+
+gcc toolbar.c -o toolbar.o `pkg-config --cflags --libs gtk+-2.0`
