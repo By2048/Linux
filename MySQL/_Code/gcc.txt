@@ -1,0 +1,11 @@
+
+安装mysql
+sudo apt-get install mysql-server mysql-client
+
+开发包
+sudo apt-get install libmysqlclient15-dev
+
+
+gcc $(mysql_config --cflags) 6-1.c -o 6-1.o $(mysql_config --libs)
+
+
